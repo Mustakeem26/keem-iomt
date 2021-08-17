@@ -22,9 +22,9 @@ request.onload = function() {
      };
 
     request.send();
-    </script>
-    </head>
-    <body>
+ </script>
+ </head>
+ <body>
       <h1>Mustakeem Laehlong 62107677</h1>
       <iframe src="https://thingspeak.com/channels/1458411/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" style="height:250px;width:500px;" title="HUMIDITY"></iframe>
       <br>
@@ -35,5 +35,5 @@ request.onload = function() {
      left: -300px; background-color: red; border-left: 300px solid red; border-bottom: 5px solid red; 
      border-top: 300px solid red; overflow: hidden;  margin-top: -300px; font-family: Brandon, 
      Grotesque, sans-serif;"></div>
-  </body>
+</body>
 </html>
