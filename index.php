@@ -7,9 +7,9 @@ let response = await fetch('https://api.thingspeak.com/channels/1458411/fields/1
 let rawData = await response.text() // รับผลลัพธ์
 let data = JSON.parse(rawData) // แปลงผลลัพธ์เป็ น object
 console.log(rawData) // ทดสอบแสดงค่า
-data.forEach(temp => { // วนลูปดึงค่าจาก object แสดงผลใน console
-console.log(temp.feeds.field1)
-});
+//data.forEach(temp => { // วนลูปดึงค่าจาก object แสดงผลใน console
+//console.log(temp.feeds.field1)
+//});
 }
 </script>
 </head>
