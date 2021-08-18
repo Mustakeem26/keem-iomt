@@ -14,7 +14,7 @@
 		$user_data = array_slice($user_data, 0);
 		foreach ($user_data as $user) {
 			echo "Humidity: ".$user->field1;
-			echo " %"
+			echo " %";
 		}
 		?>
       <br>
@@ -27,7 +27,7 @@
 		$user_data = array_slice($user_data, 0);
 		foreach ($user_data as $user) {
 			echo "Temperature: ".$user->field2;
-			echo " C"
+			echo " C";
 		}
 		?>
       <br>
