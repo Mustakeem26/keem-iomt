@@ -16,7 +16,7 @@
 			echo "Humidity: ".$user->field1;
 			echo " %";
 		 }
-		$url1=$_SERVER['REQUEST_URI'];
+		$url1="https://keem-iomt.herokuapp.com/";
     		header("Refresh: 15; URL=$url1");
 		?>
 	 </a>
@@ -33,7 +33,7 @@
 			 echo "Temperature: ".$user->field2;
 			 echo " C"; 
 		 }
-		$url1=$_SERVER['REQUEST_URI'];
+		$url1="https://keem-iomt.herokuapp.com/";
     		header("Refresh: 15; URL=$url1");
 		?>
 	</a>
