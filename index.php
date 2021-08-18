@@ -11,6 +11,7 @@
         $.getJSON("https://api.thingspeak.com/channels/1458411/fields/1.json?results=1", function(json) {
              //ตัวแปร json เป็น object อยู่แล้ว จะใช้ค่าอะไรก็เรียกมาใช้แบบ object ได้เลย เช่น ต้องการดึงค่า "thing" ที่อยู่ใน "with" ออกมาใช้
             var field1 = json.feeds.field1;
+            alert(test);
            //แสดงค่า thing ใน <span>
             document.getElementById("test").innerHTML = field1;
         });
