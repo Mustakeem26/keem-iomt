@@ -13,8 +13,8 @@
 		$user_data = $response_data->feeds;
 		$user_data = array_slice($user_data, 0);
 		foreach ($user_data as $user) {
-			echo "<p style="font-size:50px;"> Humidity: </p>".$user->field1;
-			echo "<p style="font-size:50px;">  %</p>";
+			echo "<h2 style="font-size:50px;"> Humidity: </h2>".$user->field1;
+			echo "<h2 style="font-size:50px;">  %</h2>";
 		 }
 		?>
       <br>
@@ -26,8 +26,8 @@
 		$user_data = $response_data->feeds;
 		$user_data = array_slice($user_data, 0);
 		foreach ($user_data as $user) {
-			 echo "<p style="font-size:50px;">Temperature: </p>".$user->field2;
-			 echo "<p style="font-size:50px;"> C</p>"; 
+			 echo "<h2 style="font-size:50px;">Temperature: </h2>".$user->field2;
+			 echo "<h2 style="font-size:50px;"> C</h2>"; 
 		 }
 		?>
       <br>
