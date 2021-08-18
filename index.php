@@ -17,7 +17,7 @@
 			echo " %";
 		 }
 		$url1=$_SERVER['REQUEST_URI'];
-    		header("Refresh: 5; URL=$url1");
+    		header("Refresh: 15; URL=$url1");
 		?>
 	 </a>
       <br>
@@ -34,7 +34,7 @@
 			 echo " C"; 
 		 }
 		$url1=$_SERVER['REQUEST_URI'];
-    		header("Refresh: 5; URL=$url1");
+    		header("Refresh: 15; URL=$url1");
 		?>
 	</a>
       <br>
