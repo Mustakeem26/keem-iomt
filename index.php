@@ -16,6 +16,8 @@
 			echo "Humidity: ".$user->field1;
 			echo " %";
 		 }
+		$url1=$_SERVER['REQUEST_URI'];
+    		header("Refresh: 5; URL=$url1");
 		?>
 	 </a>
       <br>
@@ -31,6 +33,8 @@
 			 echo "Temperature: ".$user->field2;
 			 echo " C"; 
 		 }
+		$url1=$_SERVER['REQUEST_URI'];
+    		header("Refresh: 5; URL=$url1");
 		?>
 	</a>
       <br>
