@@ -13,10 +13,9 @@
 		$user_data = $response_data->feeds;
 		$user_data = array_slice($user_data, 0);
 		foreach ($user_data as $user) {
-			?>
-			<h2 style="font-size:50px;"> <?php echo "Humidity: ".$user->field1; ?>
-			<?php echo " %"; ?> </h2>
-		<?php }
+			echo "<p style="font-size:50px;"> Humidity: </p>".$user->field1;
+			echo "<p style="font-size:50px;">  %</p>";
+		 }
 		?>
       <br>
       <iframe src="https://thingspeak.com/channels/1458411/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" style="height:250px;width:500px;" title="TEMPERATURE"></iframe>
@@ -27,10 +26,9 @@
 		$user_data = $response_data->feeds;
 		$user_data = array_slice($user_data, 0);
 		foreach ($user_data as $user) {
-			?>
-			<h2 style="font-size:50px;"> <?php echo "Temperature: ".$user->field2;
-			 <?php echo " C"; ?> </h2>
-		<?php }
+			 echo "<p style="font-size:50px;">Temperature: </p>".$user->field2;
+			 echo "<p style="font-size:50px;"> C</p>"; 
+		 }
 		?>
       <br>
       <iframe src="https://thingspeak.com/channels/1458411/maps/channel_show" style="height:250px;width:500px;" title="LIGHT"></iframe>
