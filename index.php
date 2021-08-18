@@ -1,7 +1,5 @@
 <html>
 <head>
- <title></title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
  <body>
       <h1>Mustakeem Laehlong 62107677</h1>
@@ -13,8 +11,8 @@
 		$user_data = $response_data->feeds;
 		$user_data = array_slice($user_data, 0);
 		foreach ($user_data as $user) {
-			echo "<h2 style="font-size:50px;"> Humidity: </h2>".$user->field1;
-			echo "<h2 style="font-size:50px;">  %</h2>";
+			echo "Humidity: ".$user->field1;
+			echo " %";
 		 }
 		?>
       <br>
@@ -26,8 +24,8 @@
 		$user_data = $response_data->feeds;
 		$user_data = array_slice($user_data, 0);
 		foreach ($user_data as $user) {
-			 echo "<h2 style="font-size:50px;">Temperature: </h2>".$user->field2;
-			 echo "<h2 style="font-size:50px;"> C</h2>"; 
+			 echo "Temperature: ".$user->field2;
+			 echo " C"; 
 		 }
 		?>
       <br>
