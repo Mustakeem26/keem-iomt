@@ -1,5 +1,6 @@
 <html>
 <head>
+	<meta http-equiv="refresh" content="15; url="<?php echo $_SERVER['PHP_SELF']; ?>">
 </head>
  <body>
       <h1>Mustakeem Laehlong 62107677</h1>
