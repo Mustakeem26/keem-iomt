@@ -14,7 +14,7 @@
 		$user_data = array_slice($user_data, 0);
 		foreach ($user_data as $user) {
 			?>
-			<p style="front-size:50px;front:bold;"> <?php echo "Humidity: ".$user->field1; ?>
+			<p style="font-size:50px;"> <?php echo "Humidity: ".$user->field1; ?>
 			<?php echo " %"; ?> </p>
 		<?php }
 		?>
@@ -28,7 +28,7 @@
 		$user_data = array_slice($user_data, 0);
 		foreach ($user_data as $user) {
 			?>
-			<p style="front-size:50px;front:bold;"> <?php echo "Temperature: ".$user->field2;
+			<p style="font-size:50px;"> <?php echo "Temperature: ".$user->field2;
 			 <?php echo " C"; ?> </p>
 		<?php }
 		?>
